@@ -179,6 +179,12 @@ a:focus {
   color: lightblue;
 }
 
+label,
+input {
+  display: block;
+}
+
+
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -458,6 +464,10 @@ a:focus {
 }
 .c-logo__path--3 {
   fill: #1b4186;
+}
+.c-form-field--option{
+    display: flex;
+    align-items: center;
 }
 
 /*
