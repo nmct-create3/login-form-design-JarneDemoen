@@ -184,7 +184,6 @@ input {
   display: block;
 }
 
-
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -465,9 +464,9 @@ input {
 .c-logo__path--3 {
   fill: #1b4186;
 }
-.c-form-field--option{
-    display: flex;
-    align-items: center;
+.c-form-field--option {
+  display: flex;
+  align-items: center;
 }
 
 /*
@@ -489,9 +488,26 @@ input {
 */
 
 .c-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e2e3e7;
+  border-radius: 3px;
+  font-family: inherit;
+  color: #20223a;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 11px;
+  outline: none;
 }
 
 .c-input:focus {
+  border-color: #3385ff;
+  box-shadow: h-offset v-offset blur spread color;
+  box-shadow: 0 0 0 3px #3385ff4d;
 }
 
 /*
