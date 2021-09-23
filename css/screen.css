@@ -490,6 +490,8 @@ input {
   font-family: inherit;
   font-size: 18px;
   font-weight: 600;
+  line-height: 21px;
+  padding-top: 48px;
 }
 
 /*
@@ -574,9 +576,7 @@ input {
 }
 
 .c-button:focus {
-  background: #3385ff;
-  border-color: lightblue;
-  border-width: 3px;
+  box-shadow: 0 0 0 3px rgba(51, 133, 255,0.3);
 }
 
 .c-button:active {
