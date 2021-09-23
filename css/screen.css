@@ -474,6 +474,23 @@ input {
     ---
     Card with box shadow
 */
+.c-card {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px gainsboro;
+}
+
+.c-card__body {
+  padding: 48px;
+}
+
+.c-card__title {
+  display: flex;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+}
 
 /*
     Component: Forms
@@ -542,22 +559,28 @@ input {
   border-width: 1px;
   border-style: solid;
   border-color: #2e77e6;
-  background-color: #2e77e6;
+  background-color: #3385ff;
   border-radius: 3px;
   font-family: inherit;
   color: #ffffff;
   line-height: 20px;
   padding: 13px;
   width: 100%;
+  outline: none;
 }
 
 .c-button:hover {
+  background-color: #4f95ff;
 }
 
 .c-button:focus {
+  background: #3385ff;
+  border-color: lightblue;
+  border-width: 3px;
 }
 
 .c-button:active {
+  background-color: #2e77e6;
 }
 
 .c-button--block {
